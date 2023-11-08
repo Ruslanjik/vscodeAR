@@ -16,7 +16,7 @@
 
 }
 body{
-    background-color:blueviolet;
+    background-color:black;
     color:aliceblue;
     font-family: kamerik-3d;
 }
@@ -27,16 +27,14 @@ body{
     background-repeat: no-repeat;
     
 }
-.layers{
+/* .layers{
     perspective: 1000px;
 }
 .layers_container{
     height: 100vh;
     transform-style:preserve-3d ;
 }
-.layers_item{
-    width: 6000;
-    height: 2000;
+ .layers_item{
     position:absolute;
     top: 0;
     left: 0;
@@ -44,4 +42,5 @@ body{
     bottom: 0;
     background-size: cover;
     background-position: center;
-}
+    transform:rotateX(var(--move-x)) rotateY(var(--move-y));
+ } */
