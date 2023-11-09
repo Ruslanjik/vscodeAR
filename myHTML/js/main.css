@@ -21,7 +21,7 @@ body{
     font-family: kamerik-3d;
 }
 
-  .logo{
+.logo{
     
     width: 150px;
     height: 150px;
@@ -36,7 +36,7 @@ body{
     height: 100vh;
     transform-style:preserve-3d ;
  }
- /*.layers_item{
+ /* .layers_item{
     position:absolute ;
     top: 0;
     left: 0;
@@ -45,5 +45,13 @@ body{
     background-size: cover;
     background-position: center;
     transform:rotateX(var(--move-x)) rotateY(var(--move-y));
- }
- */
+ } */
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+  margin: 0 auto;
+  display: block;
+}
